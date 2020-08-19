@@ -30,11 +30,12 @@ public class App {
      * create a Job class - Job Id, Characteristic, matched value = 100
      * create a class for Job Characteristics - characteristic, keywords (for matching against individual skills), matchScore = 20(?)
      * Create a class for Individual - Id, characteristics, score
-
      * Characteristics will contain a list of keywords for matching
      * Build a list of Jobs with Characteristics
      * Create an Individual with a list of keywords for skills
      * run Individual through matcher to match against Job Characteristics to get match score
+     * Cycle Individual skills/characteristics against Job characteristic keywords
+     * Matcher could match using RegEx, but probably a framework or library that would do this better. To investigate
      * Compare Individual score against Jobs to see which matched best
      * Return the winning Job
      */

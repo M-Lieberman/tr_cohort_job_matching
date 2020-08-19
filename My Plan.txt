@@ -11,6 +11,8 @@
      * Build a list of Jobs with Characteristics
      * Create an Individual with a list of keywords for skills
      * run Individual through matcher to match against Job Characteristics to get match score
+     * Cycle Individual skills/characteristics against Job characteristic keywords
+     * Matcher could match using RegEx, but probably a framework or library that would do this better. To investigate
      * Compare Individual score against Jobs to see which matched best
      * Return the winning Job
      */
