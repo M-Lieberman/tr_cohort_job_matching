@@ -28,6 +28,12 @@ class AppTest {
     static final App app = new App();
 
 
+    // Dont' forget failure and edge cases:
+    // individual matches both jobs
+    //  no keywords match
+    // no keywords
+    // failure to create lists, individual, characteristics - throw exception
+    // individual matches no jobs
 
     @Test
     void findBestJob() {
@@ -51,9 +57,8 @@ class AppTest {
         List<Job> jobsList = buildTestJobsList();
     }
 
-    // edge cases
-    // new characteristics
-    //
+
+
 
     private List<Job> buildTestJobsList() {
         List<Job> jobs = new ArrayList<>();
