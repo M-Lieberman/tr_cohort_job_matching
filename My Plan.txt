@@ -1,0 +1,16 @@
+    /**
+     * My Plan
+     * Main class is App
+     * Test class is AppTest - goal was to TDD but lost in some rusty coding skills:)
+     *
+     * create classes to map out Jobs, Characteristics, and Individuals
+     * create a Job class - Job Id, Characteristic, matched value = 100
+     * create a class for Job Characteristics - characteristic, keywords (for matching against individual skills), matchScore = 20(?)
+     * Create a class for Individual - Id, characteristics, score
+     * Characteristics will contain a list of keywords for matching
+     * Build a list of Jobs with Characteristics
+     * Create an Individual with a list of keywords for skills
+     * run Individual through matcher to match against Job Characteristics to get match score
+     * Compare Individual score against Jobs to see which matched best
+     * Return the winning Job
+     */
